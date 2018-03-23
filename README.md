@@ -1,6 +1,8 @@
 # GithubProjects
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+## Description 
+Github Projects allows you to acess your github account and go through your projects(as opposed to going to the official github website)
 
 ## Development server
 
