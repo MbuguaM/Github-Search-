@@ -1,0 +1,34 @@
+
+<div class="container">
+      <form class="alignment" (submit)="searchUser()">
+        <div class="text-center">
+                  <h6 id="special">Enter your Credentials</h6>
+              </div>
+               <br> 
+              <div class="text-center">
+                  <label id="text">Name
+                  </label>
+            </div>
+            
+               <br>
+
+              <div class="text-center">
+                <input type="text" id="inputPassword" [(ngModel)]="username" name="username" required>
+                <label for="inputPasswors"></label>
+              </div>
+              <br>
+              <div class="text-center">
+              <button class="btn btn-primary center-block" type="submit">Submit</button>
+              </div>
+                
+      </form> 
+      </div>
+    
+<!-- to be later exported -->
+<div class="container">
+  <div class="row">
+  <!-- display for account -->
+    <app-display [user]="user" [repos]="repos" ></app-display>
+  
+  </div>
+</div>

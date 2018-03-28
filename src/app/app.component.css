@@ -1,0 +1,21 @@
+
+
+#bottom{
+    height:75px;
+}
+#bottomTag {
+    padding-top:30px;
+    text-align:center;
+}
+
+#topSection{
+    margin-top:30px;
+    margin-bottom:50px;
+    text-align:center;
+}
+
+h1{
+    font-size:64px;
+    color:#810B0B;
+    font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,26 @@
+ 
+.flexForm {
+    display:flex;
+}
+#text{
+    color:#810B0B;
+}
+
+form{
+    display:flex;
+    
+}
+.text-center {
+    text-align:center;
+    justify-content:center;
+   
+}
+.alignment{
+     display:inline;
+}
+.container {
+    margin-bottom:100px;
+}
+#special{
+    border-bottom:1px solid black;
+}
